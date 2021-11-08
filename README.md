@@ -2,13 +2,13 @@ MakersBnb Web App
 ==================
 
 ```
-                                        `'::::.
-                                         _____A_
-             x                          /      /\
-  .-. _______|                       __/__/\__/  \___
-  |=|/     /  \       /\-\       ---/__|" '' "| /___/\----
-  | |_____|_""_|     _||"|_         |''|"'||'"| |' '||
-  |_|_[X]_|____|    ~^~^~^~^        `""`""))""`"`""""`
+                                          `'::::.
+                                           _____A_
+               x                          /      /\
+    .-. _______|        /\-\           __/__/\__/  \___
+----|=|/     /  \------_||"|_----------/__|" '' "| /___/\----
+    | |_____|_""_|    ~^~^~^~^        |''|"'||'"| |' '||
+    |_|_[X]_|____|                    `""`""))""`"`""""`
 ```
 
 Team "Partially blind and computer less" present our very own MakersBnb clone.\
@@ -16,7 +16,7 @@ A collaboration between [Nicola](https://github.com/Nicola-Carroll), [Corinne](h
 
 
 ## Airbnb Clone
-Our first group project at Makers Academy, we learning and implemented the following techniques
+Our first group project at Makers Academy, learning and implementing the following techniques
 
 - Introduction to Active Record
 - Agile Methology for user stories & domain modeling
@@ -43,19 +43,25 @@ Goals:
 
 ## Setup database
 
+Before running the application on localhost, please migrate the database. 
+If you wish to seed your db you can do so with the 2nd command.
+```
+rake db:migrate
+rake db:seed
+```
 
 ## Interact with the program
 
-Open the application in your terminal with `ruby app.rb`
+Open the application in your directory with `rackup`
 
-Direct in your browser to `http://localhost:4567`.
-Now you are free to add new bookmarks or view existing ones.
+Direct in your browser to `http://localhost:9292`.\
+Now you can register on MakersBnb and browse through all the lovely listings!
 
 You can frature test and run the bookmarker program in any `code editor` or `IRB`. 
 
 ## Run test 
 
-To test all units and features at once in your terminal.
+To test all units and features at once in your terminal.\
 Print out the format documentation with the -fd shortcut.
 ```
 $ rspec
@@ -64,13 +70,12 @@ $ rspec -fd
 
 To test inividual unit or feature tests in your terminal:
 ```
-$ rspec spec/units/bookmarks_spec.rb -fd
-$ rspec spec/features/view_bookmarks_spec.rb -fd
+$ rspec spec/units/user_spec.rb -fd
+$ rspec spec/features/sign_in_spec.rb -fd
 ```
 
-
 ## User stories
-Here are the user stories which we have written based on the objectives and what we expect the app to do:
+Based on the objectives and expectations of our app we came up with the following user stories:
 
 ```
 1. Any signed-up user can list a new space.

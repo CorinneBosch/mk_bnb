@@ -1,11 +1,78 @@
-Team "Partially blind and computer less" present
+MakersBnb Web App
+==================
 
-MAKERS BNB WEBAPP
+```
+                                        `'::::.
+                                         _____A_
+             x                          /      /\
+  .-. _______|                       __/__/\__/  \___
+  |=|/     /  \       /\-\       ---/__|" '' "| /___/\----
+  | |_____|_""_|     _||"|_         |''|"'||'"| |' '||
+  |_|_[X]_|____|    ~^~^~^~^        `""`""))""`"`""""`
+```
 
-By Corinne, Nicola, Paul & William
+Team "Partially blind and computer less" present our very own MakersBnb clone.\
+A collaboration between [Nicola](https://github.com/Nicola-Carroll), [Corinne](https://github.com/CorinneBosch) & [William](https://github.com/Willinlondon)
 
+
+## Airbnb Clone
+Our first group project at Makers Academy, we learning and implemented the following techniques
+
+- Introduction to Active Record
+- Agile Methology for user stories & domain modeling
+- Feature and Unit testing
+- GET / POST requests - defining routes
+- Creating Tickets & using Trello
+
+Goals:
+- Break down projects into tasks and allocate them to pairs
+- Build to a specification (rather than challenges)
+- Run stand-ups and retrospectives
+- Use a branch/PR/merge git workflow
+- Give and receive meaningful code review
+
+## Setup
+
+1. **Fork** this [Bookmarker repository](https://github.com/CorinneBosch/Bookmarker/) 
+2. Then clone **your** fork to your computer.
+3. Ensure you have `Ruby` and `rspec` installed. Check ruby version with `ruby -v`
+4. Install bundler if you haven't already.
+`gem install bundler`
+5. Install the gems required by this repository.
+`bundle install`
+
+## Setup database
+
+
+## Interact with the program
+
+Open the application in your terminal with `ruby app.rb`
+
+Direct in your browser to `http://localhost:4567`.
+Now you are free to add new bookmarks or view existing ones.
+
+You can frature test and run the bookmarker program in any `code editor` or `IRB`. 
+
+## Run test 
+
+To test all units and features at once in your terminal.
+Print out the format documentation with the -fd shortcut.
+```
+$ rspec
+$ rspec -fd
+```
+
+To test inividual unit or feature tests in your terminal:
+```
+$ rspec spec/units/bookmarks_spec.rb -fd
+$ rspec spec/features/view_bookmarks_spec.rb -fd
+```
+
+
+## User stories
 Here are the user stories which we have written based on the objectives and what we expect the app to do:
 
+```
 1. Any signed-up user can list a new space.
 As a home owner
 I would like to list my spare room on MK BnB
@@ -41,3 +108,6 @@ I would like to approve a potential tenant to rent my room.
 As a tenant
 That I can avoid booking an unavailable room
 I would like to only see available rooms
+```
+
+Source of challege requirements: [Makersacadeny - GitHub](https://github.com/makersacademy/course/tree/main/makersbnb)

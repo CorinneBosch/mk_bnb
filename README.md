@@ -43,7 +43,7 @@ Goals:
 
 ## Setup database
 
-Before running the application on localhost, please migrate the database. 
+Before running the application on localhost, please migrate the database.\
 If you wish to seed your db you can do so with the 2nd command.
 ```
 rake db:migrate

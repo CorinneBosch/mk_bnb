@@ -50,7 +50,7 @@ rake db:migrate
 rake db:seed
 ```
 
-## Interact with the program
+## Interact with the programme
 
 Open the application in your directory with `rackup`
 

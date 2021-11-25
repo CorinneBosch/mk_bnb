@@ -10,6 +10,9 @@ MakersBnb Web App
     | |_____|_""_|    ~^~^~^~^        |''|"'||'"| |' '||
     |_|_[X]_|____|                    `""`""))""`"`""""`
 ```
+______
+
+[Set up](#Setup) | [DB Connection](#DB) | [Interact](#Interact) | [Run Tests](#Tests) | [User Stories](#User-Stories) 
 
 Team "Partially blind and computer less" present our very own MakersBnb clone.\
 A collaboration between [Nicola](https://github.com/Nicola-Carroll), [Corinne](https://github.com/CorinneBosch) & [William](https://github.com/Willinlondon)
@@ -31,7 +34,7 @@ Goals:
 - Use a branch/PR/merge git workflow
 - Give and receive meaningful code review
 
-## Setup
+## <a name="Setup">Set up</a>
 
 1. **Fork** this [Bookmarker repository](https://github.com/CorinneBosch/Bookmarker/) 
 2. Then clone **your** fork to your computer.
@@ -41,7 +44,7 @@ Goals:
 5. Install the gems required by this repository.
 `bundle install`
 
-## Setup database
+## <a name="DB">DB Connection</a>
 
 Before running the application on localhost, please migrate the database.\
 If you wish to seed your db you can do so with the 2nd command.
@@ -50,7 +53,7 @@ rake db:migrate
 rake db:seed
 ```
 
-## Interact with the programme
+## <a name="Interact">Interact with the programme</a>
 
 Open the application in your directory with `rackup`
 
@@ -59,7 +62,7 @@ Now you can register on MakersBnb and browse through all the lovely listings!
 
 You can frature test and run the bookmarker program in any `code editor` or `IRB`. 
 
-## Run test 
+## <a name="Tests">Run tests</a>
 
 To test all units and features at once in your terminal.\
 Print out the format documentation with the -fd shortcut.
@@ -74,7 +77,7 @@ $ rspec spec/units/user_spec.rb -fd
 $ rspec spec/features/sign_in_spec.rb -fd
 ```
 
-## User stories
+## <a name="User-Stories">User Stories</a>
 Based on the objectives and expectations of our app we came up with the following user stories:
 
 ```

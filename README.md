@@ -39,10 +39,8 @@ Goals:
 1. **Fork** this [Bookmarker repository](https://github.com/CorinneBosch/Bookmarker/) 
 2. Then clone **your** fork to your computer.
 3. Ensure you have `Ruby` and `rspec` installed. Check ruby version with `ruby -v`
-4. Install bundler if you haven't already.
-`gem install bundler`
-5. Install the gems required by this repository.
-`bundle install`
+4. Install bundler if you haven't already. `gem install bundler`
+5. Install the gems required by this repository. `bundle install`
 
 ## <a name="DB">DB Connection</a>
 
@@ -60,7 +58,7 @@ Open the application in your directory with `rackup`
 Direct in your browser to `http://localhost:9292`.\
 Now you can register on MakersBnb and browse through all the lovely listings!
 
-You can frature test and run the bookmarker program in any `code editor` or `IRB`. 
+You can frature test and run the makersbnb program in any `code editor` or `IRB`. 
 
 ## <a name="Tests">Run tests</a>
 
